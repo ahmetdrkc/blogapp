@@ -14,7 +14,7 @@ from pathlib import Path
 from os import getenv
 
 import django
-
+import django_heroku
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -90,7 +90,7 @@ DATABASES = {
         'NAME': 'db9ghh933c7l37',                      
         'USER': 'buphcssibfgupu',
         'PASSWORD': '115af73ffcb17d1f7e4a01d293343b01147a81eef2c5d03f6a677bb6df9fcb29',
-        'Host': 'ec2-52-30-159-47.eu-west-1.compute.amazonaws.com',
+        'HOST': 'ec2-52-30-159-47.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
